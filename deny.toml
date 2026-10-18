@@ -1,0 +1,9 @@
+[advisories]
+version = 2
+ignore = [
+  { id = "RUSTSEC-2025-0141", reason = "ruvector transitive bincode; bounded synthetic fixtures only" },
+  { id = "RUSTSEC-2023-0071", reason = "transitive RSA timing advisory; no private-key signing path" },
+]
+[licenses]
+version = 2
+allow = ["Apache-2.0", "MIT", "MIT-0", "BSD-3-Clause", "CDLA-Permissive-2.0", "ISC", "Unicode-3.0", "Zlib"]

@@ -1,0 +1,14 @@
+[package]
+        name = "ca-scenario"
+        version.workspace = true
+        edition.workspace = true
+        license.workspace = true
+        rust-version.workspace = true
+
+        [dependencies]
+        ca-identity = { path = "../ca-identity" }
+ca-snapshot = { path = "../ca-snapshot" }
+        serde.workspace = true
+
+        [lints]
+        workspace = true

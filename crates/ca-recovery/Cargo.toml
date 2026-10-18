@@ -1,0 +1,15 @@
+[package]
+        name = "ca-recovery"
+        version.workspace = true
+        edition.workspace = true
+        license.workspace = true
+        rust-version.workspace = true
+
+        [dependencies]
+        ca-evidence = { path = "../ca-evidence" }
+ca-plan = { path = "../ca-plan" }
+ca-service = { path = "../ca-service" }
+        thiserror.workspace = true
+
+        [lints]
+        workspace = true

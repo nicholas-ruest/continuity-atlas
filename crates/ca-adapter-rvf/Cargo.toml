@@ -1,0 +1,15 @@
+[package]
+        name = "ca-adapter-rvf"
+        version.workspace = true
+        edition.workspace = true
+        license.workspace = true
+        rust-version.workspace = true
+
+        [dependencies]
+        ca-events = { path = "../ca-events" }
+ca-identity = { path = "../ca-identity" }
+        rvf-crypto.workspace = true
+thiserror.workspace = true
+
+        [lints]
+        workspace = true

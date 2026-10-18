@@ -1,0 +1,52 @@
+[2m2026-10-18T01:52:54.361708Z[0m [32m INFO[0m [2mruvector_core::vector_db[0m[2m:[0m Creating new database with 4 dimensions
+[2m2026-10-18T01:52:54.512545Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m1 [3mkind[0m[2m=[0mSnapshotFrozen [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.512601Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m2 [3mkind[0m[2m=[0mScenariosGenerated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.512617Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m3 [3mkind[0m[2m=[0mAnalogueRecalled [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.512628Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m4 [3mkind[0m[2m=[0mPlanRanked [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.512639Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m5 [3mkind[0m[2m=[0mPolicyEvaluated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.512649Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m6 [3mkind[0m[2m=[0mEvidenceSealed [3msubject[0m[2m=[0mcheckout
+{"analogue_recall":true,"elapsed_us":249323,"evidence_verifiable":true,"mode":"combined","objective_upper_bound":8.75,"recovery_verified":true,"robust_control":true,"scenario_count":3,"selected_plan":"hold","unsafe_candidate_rejected":true}
+[2m2026-10-18T01:52:54.516288Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m1 [3mkind[0m[2m=[0mSnapshotFrozen [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.516377Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m2 [3mkind[0m[2m=[0mScenariosGenerated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.516392Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m3 [3mkind[0m[2m=[0mAnalogueRecalled [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.516403Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m4 [3mkind[0m[2m=[0mPlanRanked [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.516413Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m5 [3mkind[0m[2m=[0mPolicyEvaluated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.516424Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m6 [3mkind[0m[2m=[0mEvidenceSealed [3msubject[0m[2m=[0mcheckout
+{"analogue_recall":false,"elapsed_us":3317,"evidence_verifiable":true,"mode":"without-ruvector","objective_upper_bound":8.75,"recovery_verified":true,"robust_control":true,"scenario_count":3,"selected_plan":"hold","unsafe_candidate_rejected":true}
+[2m2026-10-18T01:52:54.600400Z[0m [32m INFO[0m [2mruvector_core::vector_db[0m[2m:[0m Creating new database with 4 dimensions
+[2m2026-10-18T01:52:54.736748Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m1 [3mkind[0m[2m=[0mSnapshotFrozen [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.736797Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m2 [3mkind[0m[2m=[0mScenariosGenerated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.736809Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m3 [3mkind[0m[2m=[0mAnalogueRecalled [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.736819Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m4 [3mkind[0m[2m=[0mPlanRanked [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.736830Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m5 [3mkind[0m[2m=[0mPolicyEvaluated [3msubject[0m[2m=[0mcheckout
+{"analogue_recall":true,"elapsed_us":220086,"evidence_verifiable":false,"mode":"without-rvf","objective_upper_bound":8.75,"recovery_verified":true,"robust_control":true,"scenario_count":3,"selected_plan":"hold","unsafe_candidate_rejected":true}
+[2m2026-10-18T01:52:54.828665Z[0m [32m INFO[0m [2mruvector_core::vector_db[0m[2m:[0m Creating new database with 4 dimensions
+[2m2026-10-18T01:52:54.975060Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m1 [3mkind[0m[2m=[0mSnapshotFrozen [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.975122Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m2 [3mkind[0m[2m=[0mScenariosGenerated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.975142Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m3 [3mkind[0m[2m=[0mAnalogueRecalled [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.975158Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m4 [3mkind[0m[2m=[0mPlanRanked [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.975175Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m5 [3mkind[0m[2m=[0mPolicyEvaluated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:54.975196Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m6 [3mkind[0m[2m=[0mEvidenceSealed [3msubject[0m[2m=[0mcheckout
+{"analogue_recall":true,"elapsed_us":238112,"evidence_verifiable":true,"mode":"without-regorus","objective_upper_bound":8.75,"recovery_verified":true,"robust_control":true,"scenario_count":3,"selected_plan":"hold","unsafe_candidate_rejected":false}
+[2m2026-10-18T01:52:55.062796Z[0m [32m INFO[0m [2mruvector_core::vector_db[0m[2m:[0m Creating new database with 4 dimensions
+[2m2026-10-18T01:52:55.234651Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m1 [3mkind[0m[2m=[0mSnapshotFrozen [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.234701Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m2 [3mkind[0m[2m=[0mScenariosGenerated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.234713Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m3 [3mkind[0m[2m=[0mAnalogueRecalled [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.234724Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m4 [3mkind[0m[2m=[0mPlanRanked [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.234735Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m5 [3mkind[0m[2m=[0mPolicyEvaluated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.234746Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m6 [3mkind[0m[2m=[0mEvidenceSealed [3msubject[0m[2m=[0mcheckout
+{"analogue_recall":true,"elapsed_us":258956,"evidence_verifiable":true,"mode":"without-dro","objective_upper_bound":8.0,"recovery_verified":true,"robust_control":false,"scenario_count":3,"selected_plan":"hold","unsafe_candidate_rejected":true}
+[2m2026-10-18T01:52:55.236987Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m1 [3mkind[0m[2m=[0mSnapshotFrozen [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.237017Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m2 [3mkind[0m[2m=[0mScenariosGenerated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.237034Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m3 [3mkind[0m[2m=[0mAnalogueRecalled [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.237052Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m4 [3mkind[0m[2m=[0mPlanRanked [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.237066Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m5 [3mkind[0m[2m=[0mPolicyEvaluated [3msubject[0m[2m=[0mcheckout
+{"analogue_recall":false,"elapsed_us":1672,"evidence_verifiable":false,"mode":"enterprise-only","objective_upper_bound":8.0,"recovery_verified":true,"robust_control":false,"scenario_count":3,"selected_plan":"hold","unsafe_candidate_rejected":true}
+[2m2026-10-18T01:52:55.325812Z[0m [32m INFO[0m [2mruvector_core::vector_db[0m[2m:[0m Creating new database with 4 dimensions
+[2m2026-10-18T01:52:55.471110Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m1 [3mkind[0m[2m=[0mSnapshotFrozen [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.471174Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m2 [3mkind[0m[2m=[0mScenariosGenerated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.471188Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m3 [3mkind[0m[2m=[0mAnalogueRecalled [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.471199Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m4 [3mkind[0m[2m=[0mPlanRanked [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.471210Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m5 [3mkind[0m[2m=[0mPolicyEvaluated [3msubject[0m[2m=[0mcheckout
+[2m2026-10-18T01:52:55.471221Z[0m [32m INFO[0m [2mca_telemetry[0m[2m:[0m continuity_event [3msequence[0m[2m=[0m6 [3mkind[0m[2m=[0mEvidenceSealed [3msubject[0m[2m=[0mcheckout
+{"analogue_recall":true,"elapsed_us":234199,"evidence_verifiable":true,"mode":"ruvnet-only","objective_upper_bound":8.0,"recovery_verified":true,"robust_control":false,"scenario_count":3,"selected_plan":"hold","unsafe_candidate_rejected":false}

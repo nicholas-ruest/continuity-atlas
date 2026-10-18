@@ -1,0 +1,17 @@
+[package]
+        name = "ca-snapshot"
+        version.workspace = true
+        edition.workspace = true
+        license.workspace = true
+        rust-version.workspace = true
+
+        [dependencies]
+        ca-identity = { path = "../ca-identity" }
+ca-region = { path = "../ca-region" }
+ca-service = { path = "../ca-service" }
+ca-topology = { path = "../ca-topology" }
+        serde.workspace = true
+thiserror.workspace = true
+
+        [lints]
+        workspace = true

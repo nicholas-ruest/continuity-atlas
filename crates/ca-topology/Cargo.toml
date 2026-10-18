@@ -1,0 +1,15 @@
+[package]
+        name = "ca-topology"
+        version.workspace = true
+        edition.workspace = true
+        license.workspace = true
+        rust-version.workspace = true
+
+        [dependencies]
+        ca-identity = { path = "../ca-identity" }
+ca-service = { path = "../ca-service" }
+        serde.workspace = true
+thiserror.workspace = true
+
+        [lints]
+        workspace = true
