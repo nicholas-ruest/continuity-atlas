@@ -24,3 +24,13 @@ The `combined_workload_executes_all_integrations` integration test performs a pe
 ## Limitations
 
 The frozen fixture is synthetic, the benchmark is a local single-process micro-workload, and the control plane remains advisory. The evidence establishes executable composition and deterministic capability changes; it does not establish production SLOs, cloud-provider correctness, or universal optimality of the ambiguity radius.
+
+## External harness receipts
+
+Ruflo 3.56.10 recorded design coordination. MetaHarness Darwin 0.12.0 created and
+verified a one-task repo-native suite with hash prefix `96cc5e623971`. MetaHarness
+Flywheel 0.1.12 executed a two-generation signed replay smoke test with
+`authority=none`. Exact commands, outputs, package pins, and limitations are retained
+in `evidence/ruflo-execution-ledger.md` and
+`evidence/metaharness-execution-ledger.md`. These receipts do not replace or inflate
+the product test and benchmark results above.
