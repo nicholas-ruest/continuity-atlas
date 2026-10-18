@@ -1,0 +1,34 @@
+[package]
+        name = "ca-application"
+        version.workspace = true
+        edition.workspace = true
+        license.workspace = true
+        rust-version.workspace = true
+
+        [dependencies]
+        ca-adapter-regorus = { path = "../ca-adapter-regorus" }
+ca-adapter-ruvector = { path = "../ca-adapter-ruvector" }
+ca-adapter-rvf = { path = "../ca-adapter-rvf" }
+ca-config = { path = "../ca-config" }
+ca-dro = { path = "../ca-dro" }
+ca-evidence = { path = "../ca-evidence" }
+ca-events = { path = "../ca-events" }
+ca-identity = { path = "../ca-identity" }
+ca-loss = { path = "../ca-loss" }
+ca-plan = { path = "../ca-plan" }
+ca-policy = { path = "../ca-policy" }
+ca-ports = { path = "../ca-ports" }
+ca-recovery = { path = "../ca-recovery" }
+ca-region = { path = "../ca-region" }
+ca-scenario = { path = "../ca-scenario" }
+ca-service = { path = "../ca-service" }
+ca-snapshot = { path = "../ca-snapshot" }
+ca-telemetry = { path = "../ca-telemetry" }
+ca-topology = { path = "../ca-topology" }
+        serde.workspace = true
+serde_json.workspace = true
+tempfile.workspace = true
+thiserror.workspace = true
+
+        [lints]
+        workspace = true

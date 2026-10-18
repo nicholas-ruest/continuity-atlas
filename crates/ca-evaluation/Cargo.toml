@@ -1,0 +1,23 @@
+[package]
+        name = "ca-evaluation"
+        version.workspace = true
+        edition.workspace = true
+        license.workspace = true
+        rust-version.workspace = true
+
+        [dependencies]
+        ca-application = { path = "../ca-application" }
+ca-config = { path = "../ca-config" }
+ca-dro = { path = "../ca-dro" }
+ca-loss = { path = "../ca-loss" }
+ca-plan = { path = "../ca-plan" }
+        serde.workspace = true
+serde_json.workspace = true
+tempfile.workspace = true
+
+[[bin]]
+name = "continuity-atlas-evaluation"
+path = "src/main.rs"
+
+        [lints]
+        workspace = true

@@ -1,0 +1,6 @@
+/target
+/.claude-flow/
+/.swarm/
+/ruvector.db
+*.jsonl
+!evidence/*.jsonl

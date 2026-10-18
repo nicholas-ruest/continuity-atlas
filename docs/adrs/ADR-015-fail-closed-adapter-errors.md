@@ -1,0 +1,21 @@
+# ADR-015: Fail-closed adapter errors
+
+## Context
+Continuity Atlas must make regional failover decisions under partial evidence without confusing a plausible plan with authorized execution. This decision governs `fail-closed adapter errors` in the frozen end-to-end workload.
+
+## Viable alternatives
+1. **Silent fallback** — simpler initially, but it cannot provide the owned safety/evidence property.
+2. **External opaque service** — operationally mature, but would make the evaluation network-dependent and hide exact decision semantics.
+3. **Project-local explicit mechanism** — more implementation work, but deterministic, testable, and source-bound.
+
+## Decision
+Use typed error and no accepted plan. The owning crate exposes a typed API; callers cannot bypass the invariant through raw strings or unverified booleans.
+
+## Tradeoffs
+This adds a boundary and focused tests. It intentionally prefers explainability and reproducibility over live-cloud breadth or automatic authority.
+
+## Consequences
+The combined workflow can attribute behavior to this decision. Failure is explicit, evidence remains append-only, and the associated ablation can remove only this capability.
+
+## Validation
+Unit-test the invariant, execute it through `ca-application`, cover its failure path, and verify the corresponding combined-versus-ablation metric in `ca-evaluation`.
