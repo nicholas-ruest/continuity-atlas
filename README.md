@@ -60,4 +60,8 @@ Experimental advisory control plane, not a live cloud traffic director. The fixt
 
 [Specification](docs/specification.md) · [Research](docs/research.md) · [ADRs](docs/adrs/README.md) · [DDD](docs/ddd/README.md) · [Guidance map](docs/core-memory-guidance-map.md) · [Validation plan](docs/design/validation-plan.md)
 
+## Publication
+
+[Dated research Gist](https://gist.github.com/nicholas-ruest/ad2511cc72f8f5a289683fa3f35e6023) · [Dated build Gist](https://gist.github.com/nicholas-ruest/33995925d7bba08c05d385fc186317aa)
+
 Technology marks come from the maintained [Simple Icons](https://simpleicons.org/) family under CC0-1.0; product names and marks remain the property of their respective owners. See [asset attribution](docs/assets/ATTRIBUTION.md).
